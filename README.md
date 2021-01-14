@@ -40,13 +40,13 @@ git config --global --unset https.proxy
 
 ![zsh](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/zsh-screen-shot.png)
 
-**1. Install on-my-zsh**
+### 1. Install on-my-zsh
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-**2. Install on-my-zsh plugin**
+### 2. Install on-my-zsh plugin
 ```
 brew install pygments
 brew tap homebrew/command-not-found
@@ -58,7 +58,7 @@ git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-**3. Install PowerLine10k Recommended font**
+### 3. Install PowerLine10k Recommended font
 
 Download these four ttf files:
 
@@ -71,11 +71,11 @@ Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 > ref: https://github.com/romkatv/powerlevel10k#manual-font-installation
 
-**4. Activate PowerLine10k theme**
+### 4. Activate PowerLine10k theme
 
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
 
-**5. Activate plugins**
+### 5. Activate plugins
 
 ```sh
 plugins=( [plugins...] history-substring-search)
@@ -105,26 +105,26 @@ source .zshrc
 
 ![vim](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/vim-screen-shot.png)
 
-1. Download .vimrc
+### 1. Download .vimrc
 
 ```sh
 curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.vimrc > ~/.vimrc
 ```
 
-2. Set up Vundle:
+### 2. Set up Vundle:
 
 ```sh
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-3. Install molokai color scheme
+### 3. Install molokai color scheme
 
 ```sh
 mkdir -p ~/.vim/colors
 curl https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim > ~/.vim/colors/molokai.vim
 ```
 
-4. Install Plugins:
+### 4. Install Plugins:
 
 ```sh
 vim +PluginInstall +qall

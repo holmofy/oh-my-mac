@@ -1,11 +1,11 @@
-two 🪜 access www
+# Two 🪜 to access the World Wide Web
 
-v2ray: https://github.com/yanue/V2rayU
-shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
+* v2ray: https://github.com/yanue/V2rayU
+* shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
 
 github clone faster: https://www.zhihu.com/question/27159393/answer/141047266
 
-# pre
+# homebrew
 
 1. Install homebrew
 
@@ -13,7 +13,7 @@ github clone faster: https://www.zhihu.com/question/27159393/answer/141047266
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-> in China: https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
+> brew update faster: https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
 
 # .zshrc
 

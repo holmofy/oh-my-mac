@@ -1,9 +1,14 @@
 # Two 🪜 to access the World Wide Web
 
+client:
 * v2ray: https://github.com/yanue/V2rayU
 * shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
 
-github clone faster: https://www.zhihu.com/question/27159393/answer/141047266
+server:
+* 搬瓦工VPS推出的专用代理服务just my socks，支持支付宝付款: https://justmysocks.net/members/aff.php?aff=15941
+
+> 永久有效的优惠码：JMS9272283
+> https://bwgjms.com/post/justmysocks-coupon-code/
 
 # homebrew
 

@@ -40,13 +40,13 @@ git config --global --unset https.proxy
 
 ![zsh](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/zsh-screen-shot.png)
 
-1. Install on-my-zsh
+**1. Install on-my-zsh**
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-2. Install on-my-zsh plugin
+**2. Install on-my-zsh plugin**
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -56,7 +56,7 @@ git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-3. Install PowerLine10k Recommended font
+**3. Install PowerLine10k Recommended font**
 
 Download these four ttf files:
 
@@ -69,11 +69,11 @@ Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 > ref: https://github.com/romkatv/powerlevel10k#manual-font-installation
 
-4. Activate PowerLine10k theme
+**4. Activate PowerLine10k theme**
 
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
 
-5. Activate plugins
+**5. Activate plugins**
 
 ```sh
 plugins=( [plugins...] history-substring-search)
@@ -82,17 +82,17 @@ plugins=( [plugins...] history-substring-search)
 eg:
 ```sh
 plugins=(
-    you-should-use                # should use alias: https://github.com/MichaelAquilina/zsh-you-should-use#check-your-alias-usage
-    git                           # git alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
-    common-aliases                # common alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases
-    zsh-interactive-cd            # fish-like interactive cd: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/zsh-interactive-cd
-    zsh-syntax-highlighting       # syntax highlighting: https://github.com/zsh-users/zsh-syntax-highlighting
-    zsh-autosuggestions           # fish-like autosuggestions: https://github.com/zsh-users/zsh-autosuggestions
-    history-substring-search      # fish-lisk history search: https://github.com/zsh-users/zsh-history-substring-search
+    you-should-use              # should use alias: https://github.com/MichaelAquilina/zsh-you-should-use#check-your-alias-usage
+    git                         # git alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+    common-aliases              # common alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases
+    zsh-interactive-cd          # fish-like interactive cd: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/zsh-interactive-cd
+    zsh-syntax-highlighting     # syntax highlighting: https://github.com/zsh-users/zsh-syntax-highlighting
+    zsh-autosuggestions         # fish-like autosuggestions: https://github.com/zsh-users/zsh-autosuggestions
+    history-substring-search    # fish-lisk history search: https://github.com/zsh-users/zsh-history-substring-search
 )
 ```
 
-6. Enable .zshrc
+**6. Enable .zshrc**
 
 ```sh
 source .zshrc

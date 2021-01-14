@@ -36,7 +36,7 @@ git config --global --unset https.proxy
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-# .zshrc
+# zsh config
 
 ![zsh](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/zsh-screen-shot.png)
 

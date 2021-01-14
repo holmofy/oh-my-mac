@@ -3,6 +3,8 @@ two 🪜 access www
 v2ray: https://github.com/yanue/V2rayU
 shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
 
+github clone faster: https://www.zhihu.com/question/27159393/answer/141047266
+
 # pre
 
 1. Install homebrew
@@ -17,32 +19,26 @@ shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
 
 ![zsh](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/zsh-screen-shot.png)
 
-1. Download .zshrc
-
-```sh
-curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.zshrc > ~/.zshrc
-```
-
-2. Install on-my-zsh
+1. Install on-my-zsh
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-3. Install on-my-zsh plugin
+2. Install on-my-zsh plugin
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-4. Install PowerLine10k Recommended font
+3. Install PowerLine10k Recommended font
 
 ```url
 https://github.com/romkatv/powerlevel10k#manual-font-installation
 ```
 
-5. Enable .zshrc
+4. Enable .zshrc
 
 ```sh
 source .zshrc

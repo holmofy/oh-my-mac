@@ -17,26 +17,32 @@ shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
 
 ![zsh](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/zsh-screen-shot.png)
 
-1. Install on-my-zsh
+1. Download .zshrc
+
+```sh
+curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.zshrc > .zshrc
+```
+
+2. Install on-my-zsh
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-2. Install on-my-zsh plugin
+3. Install on-my-zsh plugin
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-3. Install PowerLine10k Recommended font
+4. Install PowerLine10k Recommended font
 
 ```url
 https://github.com/romkatv/powerlevel10k#manual-font-installation
 ```
 
-4. Enable .zshrc
+5. Enable .zshrc
 
 ```sh
 source .zshrc
@@ -46,20 +52,26 @@ source .zshrc
 
 ![vim](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/vim-screen-shot.png)
 
-1. Set up Vundle:
+1. Download .vimrc
+
+```sh
+curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.vimrc > .vimrc
+```
+
+2. Set up Vundle:
 
 ```sh
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-2. Install molokai color scheme
+3. Install molokai color scheme
 
 ```sh
 mkdir -p ~/.vim/colors
 curl https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim > ~/.vim/colors/molokai.vim
 ```
 
-3. Install Plugins:
+4. Install Plugins:
 
 ```sh
 vim +PluginInstall +qall

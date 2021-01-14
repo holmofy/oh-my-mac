@@ -50,6 +50,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
@@ -66,7 +69,30 @@ Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 > ref: https://github.com/romkatv/powerlevel10k#manual-font-installation
 
-4. Enable .zshrc
+4. Activate PowerLine10k theme
+
+Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
+
+5. Activate plugins
+
+```sh
+plugins=( [plugins...] history-substring-search)
+```
+
+eg:
+```sh
+plugins=(
+    you-should-use                # should use alias: https://github.com/MichaelAquilina/zsh-you-should-use#check-your-alias-usage
+    git                           # git alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+    common-aliases                # common alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases
+    zsh-interactive-cd            # fish-like interactive cd: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/zsh-interactive-cd
+    zsh-syntax-highlighting       # syntax highlighting: https://github.com/zsh-users/zsh-syntax-highlighting
+    zsh-autosuggestions           # fish-like autosuggestions: https://github.com/zsh-users/zsh-autosuggestions
+    history-substring-search      # fish-lisk history search: https://github.com/zsh-users/zsh-history-substring-search
+)
+```
+
+6. Enable .zshrc
 
 ```sh
 source .zshrc

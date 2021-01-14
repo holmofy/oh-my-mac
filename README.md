@@ -95,7 +95,7 @@ plugins=(
 )
 ```
 
-**6. Enable .zshrc**
+### 6. Enable .zshrc
 
 ```sh
 source .zshrc
@@ -130,12 +130,29 @@ curl https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim 
 vim +PluginInstall +qall
 ```
 
-# .tmux.conf configuration
+# tmux configuration
 
-Refs:
+### 1. Install tmux
 
-Tmux Manual: http://man7.org/linux/man-pages/man1/tmux.1.html
+```sh
+brew install tmux
+```
 
-Xterm_256color: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
+### 2. Install Tmux Plugin Manager(tpm)
 
-Vim Pane: http://www.deanbodenham.com/learn/tmux-pane-colours.html
+```sh
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+### 3. Add Configuration
+
+```sh
+curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > .tmux.conf
+```
+
+### 
+
+> Refs:
+> * Tmux Manual: http://man7.org/linux/man-pages/man1/tmux.1.html
+> * Xterm_256color: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
+> * Vim Pane: http://www.deanbodenham.com/learn/tmux-pane-colours.html

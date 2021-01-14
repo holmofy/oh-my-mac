@@ -1,3 +1,18 @@
+two 🪜 access www
+
+v2ray: https://github.com/yanue/V2rayU
+shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
+
+# pre
+
+1. Install homebrew
+
+```sh
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+> in China: https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
+
 # .zshrc
 
 1. Install on-my-zsh

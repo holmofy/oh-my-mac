@@ -84,7 +84,6 @@ plugins=( [plugins...] history-substring-search)
 eg:
 ```sh
 plugins=(
-    you-should-use              # should use alias: https://github.com/MichaelAquilina/zsh-you-should-use#check-your-alias-usage
     git                         # git alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
     command-not-found           # provide suggested packages: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found
     common-aliases              # common alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases
@@ -92,6 +91,7 @@ plugins=(
     zsh-syntax-highlighting     # syntax highlighting: https://github.com/zsh-users/zsh-syntax-highlighting
     zsh-autosuggestions         # fish-like autosuggestions: https://github.com/zsh-users/zsh-autosuggestions
     history-substring-search    # fish-lisk history search: https://github.com/zsh-users/zsh-history-substring-search
+    you-should-use              # check and should use alias: https://github.com/MichaelAquilina/zsh-you-should-use#check-your-alias-usage
 )
 ```
 

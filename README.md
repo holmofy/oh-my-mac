@@ -1,4 +1,25 @@
-# MyTmux
+# .vimrc configuration
+
+1. Set up Vundle:
+
+```sh
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+
+2. Install molokai color scheme
+
+```sh
+mkdir -p ~/.vim/colors
+curl https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim > ~/.vim/colors/molokai.vim
+```
+
+3. Install Plugins:
+
+```sh
+vim +PluginInstall +qall
+```
+
+# .tmux.conf configuration
 
 Refs:
 

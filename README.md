@@ -13,7 +13,9 @@ github clone faster: https://www.zhihu.com/question/27159393/answer/141047266
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-> brew update faster: https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
+> brew update faster: 
+>  * https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
+>  * https://github.com/mrdulin/blog/issues/18
 
 # .zshrc
 

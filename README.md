@@ -5,10 +5,11 @@ client:
 * shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
 
 server:
-* 搬瓦工VPS推出的专用代理服务just my socks，支持支付宝付款: https://justmysocks.net/members/aff.php?aff=15941
+* 搬瓦工VPS推出的专用代理服务just my socks，支持支付宝: https://justmysocks.net/members/aff.php?aff=15941
 
-> 永久有效的优惠码：JMS9272283
-> https://bwgjms.com/post/justmysocks-coupon-code/
+> 永久有效的优惠码：JMS9272283，使用方法参考：https://bwgjms.com/post/justmysocks-coupon-code/
+> 
+> 没有🪜就不要做程序员啦，效率会低很多倍的。
 
 # homebrew
 
@@ -17,10 +18,6 @@ server:
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
-
-> brew update faster: 
->  * https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/
->  * https://github.com/mrdulin/blog/issues/18
 
 # .zshrc
 

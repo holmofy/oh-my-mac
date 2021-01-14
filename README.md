@@ -15,6 +15,8 @@ shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
 
 # .zshrc
 
+![zsh](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/zsh-screen-shot.png)
+
 1. Install on-my-zsh
 
 ```sh
@@ -41,6 +43,8 @@ source .zshrc
 ```
 
 # .vimrc configuration
+
+![vim](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/vim-screen-shot.png)
 
 1. Set up Vundle:
 

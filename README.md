@@ -1,9 +1,10 @@
 # Three 🪜 to access the World Wide Web
 
 client:
-* v2rayU(支持vmess、ss协议): https://github.com/yanue/V2rayU
-* ShadowsocksX-NG-R(支持SS订阅): https://github.com/qinyuhang/ShadowsocksX-NG-R/releases
-* ShadowsocksX-NG(SS客户端): https://github.com/shadowsocks/ShadowsocksX-NG
+
+* [shadowsocks](https://github.com/search?q=shadowsocks)
+* [v2ray](https://github.com/search?q=v2ray)
+* [trojan](https://github.com/search?q=trojan)
 
 server:
 * 搬瓦工VPS推出的专用代理服务just my socks，支持支付宝: https://justmysocks.net/members/aff.php?aff=15941
@@ -11,6 +12,21 @@ server:
 > 永久有效的优惠码：JMS9272283，使用方法参考：https://bwgjms.com/post/justmysocks-coupon-code/
 > 
 > 没有🪜的程序员效率会低很多倍的。
+
+# set git proxy for github
+
+```sh
+# 设置代理，<port>是代理软件的开放端口
+git config --global https.proxy http://127.0.0.1:<port>
+git config --global https.proxy https://127.0.0.1<port>
+
+# 重置
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
+> * Configure Git to use a proxy: https://gist.github.com/evantoli/f8c23a37eb3558ab8765
+> * git 设置和取消代理: https://gist.github.com/laispace/666dd7b27e9116faece6
 
 # homebrew
 

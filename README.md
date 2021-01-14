@@ -20,7 +20,7 @@ shadowsocks: https://github.com/shadowsocks/ShadowsocksX-NG
 1. Download .zshrc
 
 ```sh
-curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.zshrc > .zshrc
+curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.zshrc > ~/.zshrc
 ```
 
 2. Install on-my-zsh
@@ -55,7 +55,7 @@ source .zshrc
 1. Download .vimrc
 
 ```sh
-curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.vimrc > .vimrc
+curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.vimrc > ~/.vimrc
 ```
 
 2. Set up Vundle:

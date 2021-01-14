@@ -15,8 +15,15 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 3. Install PowerLine10k Recommended font
 
+```url
 https://github.com/romkatv/powerlevel10k#manual-font-installation
+```
 
+4. Enable .zshrc
+
+```sh
+source .zshrc
+```
 
 # .vimrc configuration
 

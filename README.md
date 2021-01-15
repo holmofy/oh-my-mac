@@ -164,4 +164,6 @@ brew install --cask google-chrome
 brew install --cask switchhosts
 brew install --cask v2rayu
 brew install --cask wechat
+brew install --cask docker
+# docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 ```

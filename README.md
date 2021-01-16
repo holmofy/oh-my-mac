@@ -38,7 +38,7 @@ git config --global --unset https.proxy
 
 # zsh config
 
-![zsh](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/zsh-screen-shot.png)
+![zsh](https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.screen-shot/zsh-screen-shot.gif)
 
 ### 1. Install on-my-zsh
 

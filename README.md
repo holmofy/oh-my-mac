@@ -129,6 +129,8 @@ curl https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim 
 vim +PluginInstall +qall
 ```
 
+> 更牛逼的vim配置：https://github.com/SpaceVim/SpaceVim
+
 # tmux configuration
 
 ### 1. Install tmux
@@ -156,9 +158,32 @@ curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > .tm
 > * Xterm_256color: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 > * Vim Pane: http://www.deanbodenham.com/learn/tmux-pane-colours.html
 
+# Brew Formulae app
+
+```sh
+brew install mycli      # mysql client
+brew install htop       # 代替top: https://github.com/htop-dev/htop/
+brew install glances    # 代替htop: https://github.com/nicolargo/glances
+brew install tldr       # 命令行工具代码示例：https://github.com/tldr-pages/tldr
+brew install jenv       # jdk version manager
+brew install openjdk@8  # jdk8
+sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk
+jenv add /usr/local/opt/openjdk@8/
+brew install cppman     # cpp manual
+brew install mc         # midnight commander editor 仅次于vim和emacs的编辑器，比nano好用
+brew install icdiff     # 更高级的diff工具: https://github.com/jeffkaufman/icdiff
+git difftool --extcmd icdiff
+```
+
+> 好用的命令：pbcopy/pbpaste
+> ```sh
+> echo 'Hello World!' | pbcopy   # 将命令输出复制到mac系统剪贴板
+> echo `pbpaste`                 # 使用系统剪贴板的内容
+
 # GUI app
 
 ```sh
+brew install --cask sublime-text
 brew install --cask google-chrome
 brew install --cask switchhosts
 brew install --cask v2rayu

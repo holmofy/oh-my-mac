@@ -87,7 +87,6 @@ plugins=(
     git                         # git alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
     command-not-found           # provide suggested packages: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found
     common-aliases              # common alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases
-    zsh-interactive-cd          # fish-like interactive cd: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/zsh-interactive-cd
     zsh-syntax-highlighting     # syntax highlighting: https://github.com/zsh-users/zsh-syntax-highlighting
     zsh-autosuggestions         # fish-like autosuggestions: https://github.com/zsh-users/zsh-autosuggestions
     history-substring-search    # fish-lisk history search: https://github.com/zsh-users/zsh-history-substring-search

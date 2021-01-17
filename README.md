@@ -1,4 +1,6 @@
-# Three 🪜 to access the World Wide Web
+# Oh My Mac
+
+## Three 🪜 to access the World Wide Web
 
 client:
 
@@ -13,7 +15,7 @@ server:
 > 
 > 没有🪜的程序员效率会低很多倍的。
 
-# set git proxy for github
+## set git proxy for github
 
 ```sh
 # 设置代理，<port>是代理软件的开放端口
@@ -28,7 +30,7 @@ git config --global --unset https.proxy
 > * Configure Git to use a proxy: https://gist.github.com/evantoli/f8c23a37eb3558ab8765
 > * git 设置和取消代理: https://gist.github.com/laispace/666dd7b27e9116faece6
 
-# homebrew
+## homebrew
 
 1. Install homebrew
 
@@ -36,7 +38,7 @@ git config --global --unset https.proxy
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-# zsh config
+## zsh config
 
 ![zsh](https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.screen-shot/zsh-screen-shot.gif)
 
@@ -100,7 +102,7 @@ plugins=(
 source .zshrc
 ```
 
-# .vimrc configuration
+## .vimrc configuration
 
 ![vim](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/vim-screen-shot.png)
 
@@ -131,7 +133,7 @@ vim +PluginInstall +qall
 
 > 更牛逼的vim配置：https://github.com/SpaceVim/SpaceVim
 
-# tmux configuration
+## tmux configuration
 
 ### 1. Install tmux
 
@@ -151,14 +153,12 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > .tmux.conf
 ```
 
-### 
-
 > Refs:
 > * Tmux Manual: http://man7.org/linux/man-pages/man1/tmux.1.html
 > * Xterm_256color: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 > * Vim Pane: http://www.deanbodenham.com/learn/tmux-pane-colours.html
 
-# Brew Formulae app
+## Brew Formulae app
 
 ```sh
 brew install mycli      # mysql client
@@ -180,7 +180,7 @@ git difftool --extcmd icdiff
 > echo 'Hello World!' | pbcopy   # 将命令输出复制到mac系统剪贴板
 > echo `pbpaste`                 # 使用系统剪贴板的内容
 
-# GUI app
+## GUI app
 
 ```sh
 brew install --cask sublime-text       # 轻量小巧的编辑器

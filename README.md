@@ -164,7 +164,7 @@ curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > .tm
 brew install mycli      # mysql client
 brew install htop       # 代替top: https://github.com/htop-dev/htop/
 brew install glances    # 代替htop: https://github.com/nicolargo/glances
-brew install tldr       # 命令行工具代码示例：https://github.com/tldr-pages/tldr
+brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr
 brew install jenv       # jdk version manager
 brew install openjdk@8  # jdk8
 sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk
@@ -183,11 +183,17 @@ git difftool --extcmd icdiff
 # GUI app
 
 ```sh
-brew install --cask sublime-text
-brew install --cask google-chrome
-brew install --cask switchhosts
-brew install --cask v2rayu
-brew install --cask wechat
-brew install --cask docker
+brew install --cask sublime-text      # 轻量小巧的编辑器
+brew install --cask typora            # 简洁的Markdown编辑器
+brew install --cask google-chrome     # 最好的浏览器
+brew install --cask tencent-lemon     # 腾讯开发的垃圾清理工具
+brew install --cask switchhosts       # hosts文件管理工具，gasmask的替代品
+brew install --cask v2rayu            # 🪜，ShadowsocksX替代品
+brew install --cask wechat            # 聊天工具
+brew install --cask lightproxy        # 阿里出品的一款http抓包工具，可以替代charles
+brew install --cask proxyman          # 另一款好用的http抓包工具，不过有些功能要收费
+brew install --cask gifcapture        # 开源的一款gif录屏软件
+brew install --cask gifox             # 氪金版的gif录屏软件，免费的有水印
+brew install --cask docker            # 应用容器
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 ```

@@ -1,6 +1,6 @@
 # Oh My Mac
 
-## Three 🪜 to access the World Wide Web
+## 1. Three 🪜 to access the World Wide Web
 
 client:
 
@@ -15,7 +15,7 @@ server:
 > 
 > 没有🪜的程序员效率会低很多倍的。
 
-## set git proxy for github
+## 2. Set git proxy for github
 
 ```sh
 # 设置代理，<port>是代理软件的开放端口
@@ -30,25 +30,27 @@ git config --global --unset https.proxy
 > * Configure Git to use a proxy: https://gist.github.com/evantoli/f8c23a37eb3558ab8765
 > * git 设置和取消代理: https://gist.github.com/laispace/666dd7b27e9116faece6
 
-## homebrew
+## 3. homebrew
 
-1. Install homebrew
+Install homebrew
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## zsh config
+> 没有梯子的话最好用国内的镜像源，否则会很慢，安装完后可以在`.zshrc`中配置`export HOMEBREW_NO_AUTO_UPDATE=3`关闭brew仓库的自动更新
+
+## 4. zsh config
 
 ![zsh](https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.screen-shot/zsh-screen-shot.gif)
 
-### 1. Install on-my-zsh
+### 4.1. Install on-my-zsh
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### 2. Install on-my-zsh plugin
+### 4.2. Install on-my-zsh plugin
 ```
 brew install pygments
 brew tap homebrew/command-not-found
@@ -60,7 +62,7 @@ git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-### 3. Install PowerLine10k Recommended font
+### 4.3. Install PowerLine10k Recommended font
 
 Download these four ttf files:
 
@@ -73,11 +75,11 @@ Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 > ref: https://github.com/romkatv/powerlevel10k#manual-font-installation
 
-### 4. Activate PowerLine10k theme
+### 4.4. Activate PowerLine10k theme
 
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
 
-### 5. Activate plugins
+### 4.5. Activate plugins
 
 ```sh
 plugins=( [plugins...] history-substring-search)
@@ -96,36 +98,36 @@ plugins=(
 )
 ```
 
-### 6. Enable .zshrc
+### 4.6. Enable .zshrc
 
 ```sh
 source .zshrc
 ```
 
-## .vimrc configuration
+## 5 Vim Configuration
 
 ![vim](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/vim-screen-shot.png)
 
-### 1. Download .vimrc
+### 5.1. Download .vimrc
 
 ```sh
 curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.vimrc > ~/.vimrc
 ```
 
-### 2. Set up Vundle:
+### 5.2. Set up Vundle:
 
 ```sh
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ```
 
-### 3. Install molokai color scheme
+### 5.3. Install molokai color scheme
 
 ```sh
 mkdir -p ~/.vim/colors
 curl https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim > ~/.vim/colors/molokai.vim
 ```
 
-### 4. Install Plugins:
+### 5.4. Install Plugins:
 
 ```sh
 vim +PluginInstall +qall
@@ -133,21 +135,21 @@ vim +PluginInstall +qall
 
 > 更牛逼的vim配置：https://github.com/SpaceVim/SpaceVim
 
-## tmux configuration
+## 6. tmux configuration
 
-### 1. Install tmux
+### 6.1. Install tmux
 
 ```sh
 brew install tmux
 ```
 
-### 2. Install Tmux Plugin Manager(tpm)
+### 6.2. Install Tmux Plugin Manager(tpm)
 
 ```sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-### 3. Add Configuration
+### 6.3. Add Configuration
 
 ```sh
 curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > .tmux.conf
@@ -158,7 +160,9 @@ curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > .tm
 > * Xterm_256color: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 > * Vim Pane: http://www.deanbodenham.com/learn/tmux-pane-colours.html
 
-## Brew Formulae app
+## 7. Brew Formulae App
+
+通过homebrew安装常用的命令行工具
 
 ```sh
 brew install mycli      # mysql client
@@ -181,6 +185,8 @@ git difftool --extcmd icdiff
 > echo `pbpaste`                 # 使用系统剪贴板的内容
 
 ## GUI app
+
+通过homebrew安装常用的GUI工具
 
 ```sh
 brew install --cask sublime-text       # 轻量小巧的编辑器

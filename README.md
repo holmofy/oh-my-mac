@@ -191,6 +191,7 @@ brew install --cask tencent-lemon      # 腾讯开发的垃圾清理工具
 brew install --cask switchhosts        # hosts文件管理工具，gasmask的替代品
 brew install --cask v2rayu             # 🪜，ShadowsocksX替代品
 brew install --cask wechat             # 聊天工具
+brew install --cask qqmusic            # 最喜欢的音乐软件
 brew install --cask lightproxy         # 阿里出品的一款http抓包工具，可以替代charles
 brew install --cask proxyman           # 另一款好用的http抓包工具，不过有些功能要收费
 brew install --cask gifcapture         # 开源的一款gif录屏软件

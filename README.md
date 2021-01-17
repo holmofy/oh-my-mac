@@ -183,17 +183,19 @@ git difftool --extcmd icdiff
 # GUI app
 
 ```sh
-brew install --cask sublime-text      # 轻量小巧的编辑器
-brew install --cask typora            # 简洁的Markdown编辑器
-brew install --cask google-chrome     # 最好的浏览器
-brew install --cask tencent-lemon     # 腾讯开发的垃圾清理工具
-brew install --cask switchhosts       # hosts文件管理工具，gasmask的替代品
-brew install --cask v2rayu            # 🪜，ShadowsocksX替代品
-brew install --cask wechat            # 聊天工具
-brew install --cask lightproxy        # 阿里出品的一款http抓包工具，可以替代charles
-brew install --cask proxyman          # 另一款好用的http抓包工具，不过有些功能要收费
-brew install --cask gifcapture        # 开源的一款gif录屏软件
-brew install --cask gifox             # 氪金版的gif录屏软件，免费的有水印
-brew install --cask docker            # 应用容器
+brew install --cask sublime-text       # 轻量小巧的编辑器
+brew install --cask visual-studio-code # 微软开源的一款超强大的编辑器
+brew install --cask typora             # 简洁的Markdown编辑器
+brew install --cask google-chrome      # 最好的浏览器
+brew install --cask tencent-lemon      # 腾讯开发的垃圾清理工具
+brew install --cask switchhosts        # hosts文件管理工具，gasmask的替代品
+brew install --cask v2rayu             # 🪜，ShadowsocksX替代品
+brew install --cask wechat             # 聊天工具
+brew install --cask lightproxy         # 阿里出品的一款http抓包工具，可以替代charles
+brew install --cask proxyman           # 另一款好用的http抓包工具，不过有些功能要收费
+brew install --cask gifcapture         # 开源的一款gif录屏软件
+brew install --cask gifox              # 氪金版的gif录屏软件，免费的有水印
+brew install --cask hacker-menu        # Hacker News客户端
+brew install --cask docker             # 应用容器
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 ```

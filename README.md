@@ -184,7 +184,7 @@ git difftool --extcmd icdiff
 > echo 'Hello World!' | pbcopy   # 将命令输出复制到mac系统剪贴板
 > echo `pbpaste`                 # 使用系统剪贴板的内容
 
-## GUI app
+## 8. GUI app
 
 通过homebrew安装常用的GUI工具
 
@@ -206,3 +206,9 @@ brew install --cask hacker-menu        # Hacker News客户端
 brew install --cask docker             # 应用容器
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 ```
+
+## 9. My Idea Color Scheme
+
+[Download jar](https://github.com/holmofy/oh-my-mac/raw/master/MyCodeColor.jar)
+
+import color Scheme: Preferences > Editor > Color Scheme > Import Scheme

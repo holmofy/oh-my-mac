@@ -152,7 +152,13 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ### 6.3. Add Configuration
 
 ```sh
-curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > .tmux.conf
+curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > ~/.tmux.conf
+```
+
+### 6.4. Reload tmux configuration
+
+```sh
+tmux source ~/.tmux.conf
 ```
 
 > Refs:

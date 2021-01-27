@@ -179,6 +179,8 @@ brew install jenv       # jdk version manager
 brew install openjdk@8  # jdk8
 sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk
 jenv add /usr/local/opt/openjdk@8/
+brew install nvm        # node.js版本管理
+
 brew install cppman     # cpp manual
 brew install mc         # midnight commander editor 仅次于vim和emacs的编辑器，比nano好用
 brew install icdiff     # 更高级的diff工具: https://github.com/jeffkaufman/icdiff

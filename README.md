@@ -172,6 +172,7 @@ tmux source ~/.tmux.conf
 
 ```sh
 brew install mycli      # mysql client
+brew install pgcli      # postgresql client
 brew install htop       # 代替top: https://github.com/htop-dev/htop/
 brew install glances    # 代替htop: https://github.com/nicolargo/glances
 brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr

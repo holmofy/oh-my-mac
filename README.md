@@ -214,6 +214,8 @@ brew install --cask gifox              # 氪金版的gif录屏软件，免费的
 brew install --cask hacker-menu        # Hacker News客户端
 brew install --cask docker             # 应用容器
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
+brew tap let-us-go/zkcli               # A interactive Zookeeper client.
+brew install zkcli                     # https://github.com/let-us-go/zkcli
 ```
 
 ## 9. My Idea Color Scheme

@@ -193,6 +193,12 @@ git difftool --extcmd icdiff
 > echo 'Hello World!' | pbcopy   # 将命令输出复制到mac系统剪贴板
 > echo `pbpaste`                 # 使用系统剪贴板的内容
 
+其他命令行工具：
+
+iredis: https://github.com/laixintao/iredis
+
+clickhouse-cli: https://github.com/hatarist/clickhouse-cli
+
 ## 8. GUI app
 
 通过homebrew安装常用的GUI工具

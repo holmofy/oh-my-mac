@@ -186,6 +186,12 @@ brew install cppman     # cpp manual
 brew install mc         # midnight commander editor 仅次于vim和emacs的编辑器，比nano好用
 brew install icdiff     # 更高级的diff工具: https://github.com/jeffkaufman/icdiff
 git difftool --extcmd icdiff
+# zookeeper
+brew tap let-us-go/zkcli               # A interactive Zookeeper client.
+brew install zkcli                     # https://github.com/let-us-go/zkcli
+# ruby
+brew install rbenv                     # https://github.com/rbenv/rbenv#homebrew-on-macos
+rbenv install 3.0.0                    # ruby-build install 3.0.0
 ```
 
 > 好用的命令：pbcopy/pbpaste
@@ -220,8 +226,6 @@ brew install --cask gifox              # 氪金版的gif录屏软件，免费的
 brew install --cask hacker-menu        # Hacker News客户端
 brew install --cask docker             # 应用容器
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
-brew tap let-us-go/zkcli               # A interactive Zookeeper client.
-brew install zkcli                     # https://github.com/let-us-go/zkcli
 ```
 
 ## 9. My Idea Color Scheme

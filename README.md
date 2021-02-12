@@ -73,8 +73,6 @@ Download these four ttf files:
 * [MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)
 * [MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)
 
-> 或者使用SourceCodePro字体: https://github.com/powerline/fonts/tree/master/SourceCodePro
-
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 > ref: https://github.com/romkatv/powerlevel10k#manual-font-installation

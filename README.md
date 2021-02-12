@@ -15,6 +15,8 @@ server:
 > 
 > 没有🪜的程序员效率会低很多倍的。
 
+---
+
 ## 2. Set git proxy for github
 
 ```sh
@@ -30,6 +32,8 @@ git config --global --unset https.proxy
 > * Configure Git to use a proxy: https://gist.github.com/evantoli/f8c23a37eb3558ab8765
 > * git 设置和取消代理: https://gist.github.com/laispace/666dd7b27e9116faece6
 
+---
+
 ## 3. homebrew
 
 Install homebrew
@@ -39,6 +43,8 @@ Install homebrew
 ```
 
 > 没有梯子的话最好用国内的镜像源，否则会很慢，安装完后可以在`.zshrc`中配置`export HOMEBREW_NO_AUTO_UPDATE=3`关闭brew仓库的自动更新
+
+---
 
 ## 4. zsh config
 
@@ -132,6 +138,8 @@ plugins=(
 source .zshrc
 ```
 
+---
+
 ## 5. Vim Configuration
 
 ![vim](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/vim-screen-shot.png)
@@ -163,6 +171,8 @@ vim +PluginInstall +qall
 
 > 更牛逼的vim配置：https://github.com/SpaceVim/SpaceVim
 
+---
+
 ## 6. tmux configuration
 
 ### 6.1. Install tmux
@@ -193,6 +203,8 @@ tmux source ~/.tmux.conf
 > * Tmux Manual: http://man7.org/linux/man-pages/man1/tmux.1.html
 > * Xterm_256color: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 > * Vim Pane: http://www.deanbodenham.com/learn/tmux-pane-colours.html
+
+---
 
 ## 7. Brew Formulae App
 
@@ -238,6 +250,8 @@ rbenv install 3.0.0                    # ruby-build install 3.0.0
 iredis: https://github.com/laixintao/iredis
 
 clickhouse-cli: https://github.com/hatarist/clickhouse-cli
+
+---
 
 ## 8. GUI app
 

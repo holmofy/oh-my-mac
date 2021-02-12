@@ -50,19 +50,14 @@ Install homebrew
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### 4.2. Install on-my-zsh plugin
-```
-brew install pygments
-brew tap homebrew/command-not-found
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
-git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
-git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+### 4.2. Install oh-my-zsh themes
+
+#### 4.2.1. PowerLine10k
+
+```sh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
-
-### 4.3. Install PowerLine10k Recommended font
+Recommended font
 
 Download these four ttf files:
 
@@ -75,11 +70,22 @@ Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 > ref: https://github.com/romkatv/powerlevel10k#manual-font-installation
 
-### 4.4. Activate PowerLine10k theme
+#### 4.2.2. Activate PowerLine10k theme
 
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
 
-### 4.5. Activate plugins
+### 4.3. Install on-my-zsh plugin
+```sh
+brew install pygments
+brew tap homebrew/command-not-found
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+```
+
+### 4.4. Activate plugins
 
 ```sh
 plugins=( [plugins...] history-substring-search)
@@ -110,7 +116,7 @@ plugins=(
 )
 ```
 
-### 4.6. Enable .zshrc
+### 4.5. Enable .zshrc
 
 ```sh
 source .zshrc

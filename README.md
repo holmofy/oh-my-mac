@@ -88,13 +88,25 @@ plugins=( [plugins...] history-substring-search)
 eg:
 ```sh
 plugins=(
-    git                         # git alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
-    command-not-found           # provide suggested packages: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found
+    # alias
     common-aliases              # common alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases
+    git                         # git alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+    git-extras                  # git-extras alias: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git-extras
+    git-flow                    # git-flow alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow
+    brew                        # homebrew alias: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/brew
+    nmap                        # nmap alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nmap
+    tmux                        # tmux alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
+    dash                        # dash alias: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/dash
+    osx                         # osx utility alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/osx
+    # alias utility
+    alias-finder                # find alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder
+    you-should-use              # should use alias: https://github.com/MichaelAquilina/zsh-you-should-use#check-your-alias-usage
+    # other feature
+    command-not-found           # provide suggested packages: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found
+    colored-man-pages           # adds colors to man pages: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colored-man-pages
     zsh-syntax-highlighting     # syntax highlighting: https://github.com/zsh-users/zsh-syntax-highlighting
     zsh-autosuggestions         # fish-like autosuggestions: https://github.com/zsh-users/zsh-autosuggestions
     history-substring-search    # fish-lisk history search: https://github.com/zsh-users/zsh-history-substring-search
-    you-should-use              # check and should use alias: https://github.com/MichaelAquilina/zsh-you-should-use#check-your-alias-usage
 )
 ```
 

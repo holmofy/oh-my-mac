@@ -142,7 +142,7 @@ source .zshrc
 
 ## 5. Vim Configuration
 
-![vim](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/vim-screen-shot.png)
+![oh-my-vim](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/vim-screen-shot.png)
 
 ### 5.1. Download .vimrc
 
@@ -174,6 +174,8 @@ vim +PluginInstall +qall
 ---
 
 ## 6. tmux configuration
+
+![oh-my-tmux](https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.screen-shot/tmux-screen-shot.png)
 
 ### 6.1. Install tmux
 

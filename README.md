@@ -171,30 +171,36 @@ tmux source ~/.tmux.conf
 通过homebrew安装常用的命令行工具
 
 ```sh
-brew install mycli      # mysql client
-brew install pgcli      # postgresql client
 brew install htop       # 代替top: https://github.com/htop-dev/htop/
 brew install glances    # 代替htop: https://github.com/nicolargo/glances
 brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr
+brew install mc         # midnight commander editor 仅次于vim和emacs的编辑器，比nano好用
+brew install nmap       # 网络扫描工具
+brew install git-extras # git 扩展插件
+brew install git-flow   # git flow工作流插件
+brew install icdiff     # 更高级的diff工具: https://github.com/jeffkaufman/icdiff
+git difftool --extcmd icdiff
+# db client
+brew install mycli      # mysql client
+brew install pgcli      # postgresql client
+# zookeeper
+brew tap let-us-go/zkcli               # A interactive Zookeeper client.
+brew install zkcli                     # https://github.com/let-us-go/zkcli
+# java
 brew install jenv       # jdk version manager
 brew install openjdk@8  # jdk8
 sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk
 jenv add /usr/local/opt/openjdk@8/
+# node
 brew install nvm        # node.js版本管理
-
+# cpp
 brew install cppman     # cpp manual
-brew install mc         # midnight commander editor 仅次于vim和emacs的编辑器，比nano好用
-brew install icdiff     # 更高级的diff工具: https://github.com/jeffkaufman/icdiff
-git difftool --extcmd icdiff
-# zookeeper
-brew tap let-us-go/zkcli               # A interactive Zookeeper client.
-brew install zkcli                     # https://github.com/let-us-go/zkcli
 # ruby
 brew install rbenv                     # https://github.com/rbenv/rbenv#homebrew-on-macos
 rbenv install 3.0.0                    # ruby-build install 3.0.0
 ```
 
-> 好用的命令：pbcopy/pbpaste
+> 好用的命令：pbcopy/pbpaste | clipcopy/clippaste
 > ```sh
 > echo 'Hello World!' | pbcopy   # 将命令输出复制到mac系统剪贴板
 > echo `pbpaste`                 # 使用系统剪贴板的内容

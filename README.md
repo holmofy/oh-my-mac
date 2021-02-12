@@ -52,8 +52,9 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 ### 4.2. Install oh-my-zsh themes
 
-#### 4.2.1. PowerLine10k
+**1) [PowerLine10k](https://github.com/romkatv/powerlevel10k)**
 
+Install
 ```sh
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
@@ -70,9 +71,18 @@ Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
 > ref: https://github.com/romkatv/powerlevel10k#manual-font-installation
 
-#### 4.2.2. Activate PowerLine10k theme
+Activate PowerLine10k theme
 
 Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`
+
+**2) [spaceship-prompt](https://github.com/denysdovhan/spaceship-prompt)**
+
+Install
+```sh
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt" --depth=1
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme" 
+```
+Set `ZSH_THEME="spaceship"` in your `~/.zshrc`.
 
 ### 4.3. Install on-my-zsh plugin
 ```sh
@@ -122,7 +132,7 @@ plugins=(
 source .zshrc
 ```
 
-## 5 Vim Configuration
+## 5. Vim Configuration
 
 ![vim](https://raw.githubusercontent.com/holmofy/my-home-config/master/.screen-shot/vim-screen-shot.png)
 

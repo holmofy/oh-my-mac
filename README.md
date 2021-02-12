@@ -201,6 +201,16 @@ curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > ~/.
 tmux source ~/.tmux.conf
 ```
 
+### 6.5. Config oh-my-zsh tmux plugin
+
+refs:  https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
+
+```sh
+ZSH_TMUX_AUTOSTART=true
+ZSH_TMUX_AUTOQUIT=false
+ZSH_TMUX_UNICODE=true
+```
+
 > Refs:
 > * Tmux Manual: http://man7.org/linux/man-pages/man1/tmux.1.html
 > * Xterm_256color: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg

@@ -227,8 +227,7 @@ brew install htop       # 代替top: https://github.com/htop-dev/htop/
 brew install glances    # 代替htop: https://github.com/nicolargo/glances
 brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr
 # 世界上最好的在线cheat文档: https://github.com/chubin/cheat.sh
-curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh
-chmod +x /usr/local/bin/cht.sh
+curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && chmod +x /usr/local/bin/cht.sh
 brew install mc         # midnight commander editor 仅次于vim和emacs的编辑器，比nano好用
 brew install nmap       # 网络扫描工具
 brew install git-extras # git 扩展插件

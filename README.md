@@ -277,6 +277,7 @@ brew install --cask visual-studio-code # 微软开源的一款超强大的编辑
 brew install --cask typora             # 简洁的Markdown编辑器
 brew install --cask google-chrome      # 最好的浏览器
 brew install --cask tencent-lemon      # 腾讯开发的垃圾清理工具
+brew install --cask eul                # Mac监控软件
 brew install --cask switchhosts        # hosts文件管理工具，gasmask的替代品
 brew install --cask v2rayu             # 🪜，ShadowsocksX替代品
 brew install --cask wechat             # 聊天工具

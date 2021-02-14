@@ -254,43 +254,40 @@ brew install rbenv                     # https://github.com/rbenv/rbenv#homebrew
 rbenv install 3.0.0                    # ruby-build install 3.0.0
 ```
 
-> 好用的命令：pbcopy/pbpaste | clipcopy/clippaste
-> ```sh
-> echo 'Hello World!' | pbcopy   # 将命令输出复制到mac系统剪贴板
-> echo `pbpaste`                 # 使用系统剪贴板的内容
+more: 
 
-其他命令行工具：
-
-iredis: https://github.com/laixintao/iredis
-
-clickhouse-cli: https://github.com/hatarist/clickhouse-cli
+* https://github.com/herrbischoff/awesome-macos-command-line
+* https://github.com/agarrharr/awesome-cli-apps
+* https://github.com/alebcay/awesome-shell
 
 ---
 
 ## 8. GUI app
 
-通过homebrew安装常用的GUI工具
+通过homebrew安装常用的GUI工具(🔑 表示开源软件)
 
 ```sh
 brew install --cask sublime-text       # 轻量小巧的编辑器
-brew install --cask visual-studio-code # 微软开源的一款超强大的编辑器
-brew install --cask typora             # 简洁的Markdown编辑器
 brew install --cask google-chrome      # 最好的浏览器
-brew install --cask tencent-lemon      # 腾讯开发的垃圾清理工具
-brew install --cask eul                # Mac监控软件，颜值比stats高
-brew install --cask stats              # Mac状态监控，比eul样式多
-brew install --cask switchhosts        # hosts文件管理工具，gasmask的替代品
-brew install --cask v2rayu             # 🪜，ShadowsocksX替代品
 brew install --cask wechat             # 聊天工具
 brew install --cask qqmusic            # 最喜欢的音乐软件
-brew install --cask lightproxy         # 阿里出品的一款http抓包工具，可以替代charles
+brew install --cask visual-studio-code # 微软开源的一款超强大的编辑器 🔑
+brew install --cask typora             # 简洁的Markdown编辑器 🔑
+brew install --cask tencent-lemon      # 腾讯开发的垃圾清理工具
+brew install --cask iina               # 基于mpv的视频播放器 🔑
+brew install --cask eul                # Mac监控软件，颜值比stats高 🔑
+brew install --cask stats              # Mac状态监控，比eul样式多 🔑
+brew install --cask switchhosts        # hosts文件管理工具，gasmask的替代品 🔑
+brew install --cask v2rayu             # 🪜，ShadowsocksX替代品 🔑
+brew install --cask lightproxy         # 阿里出品的一款http抓包工具，可以替代charles 🔑
 brew install --cask proxyman           # 另一款好用的http抓包工具，不过有些功能要收费
-brew install --cask gifcapture         # 开源的一款gif录屏软件
+brew install --cask gifcapture         # 开源的一款gif录屏软件 🔑
 brew install --cask gifox              # 氪金版的gif录屏软件，免费的有水印
-brew install --cask hacker-menu        # Hacker News客户端
-brew install --cask docker             # 应用容器
+brew install --cask docker             # 应用容器 🔑
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 ```
+
+more: https://github.com/serhii-londar/open-source-mac-os-apps
 
 ## 9. My Idea Color Scheme
 

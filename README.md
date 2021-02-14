@@ -223,7 +223,8 @@ ZSH_TMUX_UNICODE=true
 通过homebrew安装常用的命令行工具
 
 ```sh
-brew install bat        # 包含语法高亮，替代cat
+brew install bat        # 包含语法高亮的less，替代cat。bat=less+cat
+brew install exa        # 树形结构的ls，exa=ls+tree
 brew install httpie     # 比curl友好的http客户端
 brew install htop       # 代替top: https://github.com/htop-dev/htop/
 brew install glances    # 代替htop: https://github.com/nicolargo/glances

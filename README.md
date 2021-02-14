@@ -229,8 +229,10 @@ brew install glances    # 代替htop: https://github.com/nicolargo/glances
 brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr
 # 世界上最好的在线cheat文档: https://github.com/chubin/cheat.sh
 curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && chmod +x /usr/local/bin/cht.sh
+brew install lazydocker # 命令行的docker管理工具，非常适合linux这样没有docker desktop的平台
 brew install mc         # midnight commander editor 仅次于vim和emacs的编辑器，比nano好用
 brew install nmap       # 网络扫描工具
+brew install sqlmap     # sql注入工具
 brew install git-extras # git 扩展插件
 brew install git-flow   # git flow工作流插件
 brew install icdiff     # 更高级的diff工具: https://github.com/jeffkaufman/icdiff

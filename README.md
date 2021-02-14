@@ -223,10 +223,12 @@ ZSH_TMUX_UNICODE=true
 通过homebrew安装常用的命令行工具
 
 ```sh
+brew install bat        # 包含语法高亮，替代cat
 brew install httpie     # 比curl友好的http客户端
 brew install htop       # 代替top: https://github.com/htop-dev/htop/
 brew install glances    # 代替htop: https://github.com/nicolargo/glances
 brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr
+brew install navi       # 交互式命令行示例参考，比tldr有交互性
 # 世界上最好的在线cheat文档: https://github.com/chubin/cheat.sh
 curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && chmod +x /usr/local/bin/cht.sh
 brew install lazydocker # 命令行的docker管理工具，非常适合linux这样没有docker desktop的平台

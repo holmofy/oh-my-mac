@@ -289,6 +289,7 @@ brew install --cask lightproxy         # 阿里出品的一款http抓包工具�
 brew install --cask proxyman           # 另一款好用的http抓包工具，不过有些功能要收费
 brew install --cask gifcapture         # 开源的一款gif录屏软件 🔑
 brew install --cask gifox              # 氪金版的gif录屏软件，免费的有水印
+brew install --cask cakebrew           # homebrew gui管理器
 brew install --cask docker             # 应用容器 🔑
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 ```

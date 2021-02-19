@@ -170,6 +170,8 @@ vim +PluginInstall +qall
 ```
 
 > 更牛逼的vim配置：https://github.com/SpaceVim/SpaceVim
+> 在VSCode中使用Vim：https://github.com/daipeihust/im-select
+> 在Idea中使用Vim：https://github.com/rieonke/idea-auto-switch-im
 
 ---
 

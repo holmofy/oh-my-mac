@@ -255,6 +255,8 @@ sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirt
 jenv add /usr/local/opt/openjdk@8/
 # node
 brew install nvm        # node.js版本管理
+nvm install <node-version>
+npm install -g nrm      # node registry manager
 # cpp
 brew install cppman     # cpp manual
 # ruby

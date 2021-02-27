@@ -262,6 +262,8 @@ brew install cppman     # cpp manual
 # ruby
 brew install rbenv                     # https://github.com/rbenv/rbenv#homebrew-on-macos
 rbenv install 3.0.0                    # ruby-build install 3.0.0
+# android tools
+brew install android-platform-tools 
 ```
 
 more: 

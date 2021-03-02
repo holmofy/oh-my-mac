@@ -263,7 +263,8 @@ brew install cppman     # cpp manual
 brew install rbenv                     # https://github.com/rbenv/rbenv#homebrew-on-macos
 rbenv install 3.0.0                    # ruby-build install 3.0.0
 # android tools
-brew install android-platform-tools 
+brew install android-platform-tools    # adb fastboot and so on
+brew install scrcpy                    # https://github.com/Genymobile/scrcpy
 ```
 
 more: 

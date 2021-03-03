@@ -228,6 +228,7 @@ ZSH_TMUX_UNICODE=true
 brew install bat        # 包含语法高亮的less，替代cat。bat=less+cat
 brew install exa        # 树形结构的ls，exa=ls+tree
 brew install httpie     # 比curl友好的http客户端
+brew install iperf3     # 网络性能测试工具
 brew install htop       # 代替top: https://github.com/htop-dev/htop/
 brew install glances    # 代替htop: https://github.com/nicolargo/glances
 brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr

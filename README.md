@@ -301,6 +301,8 @@ brew install --cask gifox              # 氪金版的gif录屏软件，免费的
 brew install --cask cakebrew           # homebrew gui管理器
 brew install --cask docker             # 应用容器 🔑
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
+brew install --cask virtualbox         # virtualbox虚拟机
+brew install --cask vagrant            # 统一管理docker、虚拟机等
 ```
 
 more: https://github.com/serhii-londar/open-source-mac-os-apps

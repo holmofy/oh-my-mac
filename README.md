@@ -268,6 +268,13 @@ brew install android-platform-tools    # adb fastboot and so on
 brew install scrcpy                    # https://github.com/Genymobile/scrcpy
 ```
 
+other:
+```sh
+iredis: https://github.com/laixintao/iredis
+kaf: https://github.com/birdayz/kaf
+clickhouse-cli: https://github.com/hatarist/clickhouse-cli
+```
+
 more: 
 
 * https://github.com/jlevy/the-art-of-command-line

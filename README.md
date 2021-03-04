@@ -123,6 +123,9 @@ plugins=(
     # alias utility
     alias-finder                # find alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder
     you-should-use              # should use alias: https://github.com/MichaelAquilina/zsh-you-should-use#check-your-alias-usage
+    # autocomplete
+    zsh-completions             # Additional completion definitions for Zsh: https://github.com/zsh-users/zsh-completions
+    adb                         # adb autocomplete plugin: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/adb                                           
     # other feature
     command-not-found           # provide suggested packages: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found
     colored-man-pages           # adds colors to man pages: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/colored-man-pages

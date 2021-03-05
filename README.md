@@ -129,8 +129,6 @@ plugins=(
     docker-compose              # docker-compose autocomplete: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/docker-compose
     git-extras                  # git-extras autocomplete: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git-extras
     httpie                      # httpie autocomplete: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/httpie
-    jenv                        # jenv autocomplete: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/jenv
-    nvm                         # nvm autocomplete: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/nvm
     pip                         # pip autocomplete: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/pip
     compleat                    # Generate command-line completions using a simple DSL.
     # other feature

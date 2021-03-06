@@ -319,6 +319,7 @@ brew install --cask docker             # 应用容器 🔑
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 brew install --cask virtualbox         # virtualbox虚拟机
 brew install --cask vagrant            # 虚拟机部署vagrantfile，类似于docker，不过是基于虚拟机的 🔑
+brew install --cask webtorrent         # 磁力链下载工具
 ```
 
 more: https://github.com/serhii-londar/open-source-mac-os-apps

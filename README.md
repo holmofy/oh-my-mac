@@ -234,6 +234,7 @@ ZSH_TMUX_UNICODE=true
 通过homebrew安装常用的命令行工具
 
 ```sh
+brew install hexedit    # 二进制编辑器
 brew install bat        # 包含语法高亮的less，替代cat。bat=less+cat
 brew install exa        # 树形结构的ls，exa=ls+tree
 brew install httpie     # 比curl友好的http客户端

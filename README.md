@@ -253,6 +253,7 @@ brew install nmap       # 网络扫描工具
 brew install sqlmap     # sql注入工具
 brew install git-extras # git 扩展插件
 brew install git-flow   # git flow工作流插件
+brew install git-lfs    # git lfs大文件存储
 brew install icdiff     # 更高级的diff工具: https://github.com/jeffkaufman/icdiff
 git difftool --extcmd icdiff
 # db client

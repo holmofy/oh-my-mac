@@ -295,6 +295,7 @@ more:
 * https://github.com/herrbischoff/awesome-macos-command-line
 * https://github.com/agarrharr/awesome-cli-apps
 * https://github.com/alebcay/awesome-shell
+* https://formulae.brew.sh/analytics/install/365d/
 
 ---
 
@@ -328,7 +329,9 @@ brew install --cask vagrant            # 虚拟机部署vagrantfile，类似于d
 brew install --cask webtorrent         # 磁力链下载工具
 ```
 
-more: https://github.com/serhii-londar/open-source-mac-os-apps
+more: 
+* https://github.com/serhii-londar/open-source-mac-os-apps
+* https://formulae.brew.sh/analytics/cask-install/365d/
 
 ## 9. My Idea Color Scheme
 

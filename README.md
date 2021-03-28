@@ -327,6 +327,7 @@ brew install --cask docker             # 应用容器 🔑
 brew install --cask virtualbox         # virtualbox虚拟机
 brew install --cask vagrant            # 虚拟机部署vagrantfile，类似于docker，不过是基于虚拟机的 🔑
 brew install --cask webtorrent         # 磁力链下载工具
+brew install --cask flux               # 控制屏幕蓝光的工具，为了不影响褪黑素的分泌，还是控制下屏幕蓝光吧
 ```
 
 more: 

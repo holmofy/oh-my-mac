@@ -255,7 +255,7 @@ brew install git-extras # git 扩展插件
 brew install git-flow   # git flow工作流插件
 brew install git-lfs    # git lfs大文件存储
 brew install icdiff     # 更高级的diff工具: https://github.com/jeffkaufman/icdiff
-git difftool --extcmd icdiff
+git config --global icdiff.options '--highlight --line-numbers'
 # db client
 brew install mycli      # mysql client
 brew install pgcli      # postgresql client

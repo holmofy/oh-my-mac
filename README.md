@@ -265,6 +265,7 @@ brew tap let-us-go/zkcli               # A interactive Zookeeper client.
 brew install zkcli                     # https://github.com/let-us-go/zkcli
 # java
 brew install jenv       # jdk version manager
+jenv enable-plugin export
 brew install openjdk@8  # jdk8
 sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk
 jenv add /usr/local/opt/openjdk@8/

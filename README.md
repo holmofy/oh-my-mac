@@ -254,8 +254,7 @@ brew install sqlmap     # sql注入工具
 brew install git-extras # git 扩展插件
 brew install git-flow   # git flow工作流插件
 brew install git-lfs    # git lfs大文件存储
-brew install icdiff     # 更高级的diff工具: https://github.com/jeffkaufman/icdiff
-git config --global icdiff.options '--highlight --line-numbers'
+brew install git-delta  # git diff工具 https://github.com/dandavison/delta
 # db client
 brew install mycli      # mysql client
 brew install pgcli      # postgresql client

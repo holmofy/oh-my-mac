@@ -114,6 +114,7 @@ plugins=(
     common-aliases              # common alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/common-aliases
     git                         # git alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
     git-flow                    # git-flow alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-flow
+    git-lfs                     # git-lfs alias: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git-lfs
     brew                        # homebrew alias: https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/brew
     nmap                        # nmap alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/nmap
     tmux                        # tmux alias: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux                                                       

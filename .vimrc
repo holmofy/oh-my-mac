@@ -29,14 +29,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'         " let Vundle manage Vundle
 Plugin 'tomasr/molokai'               " color theme
 Plugin 'itchyny/lightline.vim'        " Light Status Line
-    set showtabline=2
+    set showtabline=0
     let g:lightline = {
-          \ 'colorscheme': 'wombat',
-          \ 'tabline': {
-          \   'left': [ ['tabs'] ],
-          \   'right': [ ['close'] ]
-          \ },
+          \ 'colorscheme': 'wombat'
           \}
+Plugin 'bagrat/vim-buffet'            " Vim-buffet takes your buffers and tabs, and shows them combined in the tabline.
 Plugin 'tpope/vim-sensible'           " Defaults everyone can agree on
 Plugin 'scrooloose/nerdtree'          " file system explorer plugin for the Vim editor
     " Start NERDTree when Vim starts with a directory argument.
@@ -74,6 +71,10 @@ Plugin 'Xuyuanp/nerdtree-git-plugin'  " A plugin of NERDTree showing git status
         \ }
 Plugin 'Chiel92/vim-autoformat'       " Provide easy code formatting in Vim by integrating existing code formatters.
 Plugin 'Yggdroot/indentLine'          " A vim plugin to display the indention levels with thin vertical lines
+Plugin 'dense-analysis/ale'           " Asynchronous Lint Engine
+    let g:ale_linters = {
+        \   'javascript': ['eslint'],
+        \}
 Plugin 'easymotion/vim-easymotion'    " Vim motion on speed!
 call vundle#end()
 

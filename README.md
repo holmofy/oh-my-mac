@@ -142,6 +142,9 @@ plugins=(
 )
 ```
 
+> zsh build-in completion: https://github.com/zsh-users/zsh/blob/master/Completion/README
+> zsh custom completion: https://github.com/zsh-users/zsh-completions/blob/master/zsh-completions-howto.org
+
 ### 4.5. Enable .zshrc
 
 ```sh

@@ -238,6 +238,7 @@ ZSH_TMUX_UNICODE=true
 通过homebrew安装常用的命令行工具
 
 ```sh
+brew install fzf        # 模糊搜索工具，https://github.com/junegunn/fzf
 brew install shellcheck # 检查自己写的shell，https://github.com/koalaman/shellcheck
 brew install hexedit    # 二进制编辑器
 brew install bat        # 包含语法高亮的less，替代cat。bat=less+cat

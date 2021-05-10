@@ -314,7 +314,7 @@ brew install --cask google-chrome      # 最好的浏览器
 brew install --cask wechat             # 聊天工具
 brew install --cask qqmusic            # 最喜欢的音乐软件
 brew install --cask copytranslator     # 自助翻译神器，看论文的好帮手
-brew install --cask drawio             # 画架构图必备 🔑
+brew install --cask drawio             # 画架构图必备，比plantuml直观 🔑
 brew install --cask paintbrush         # 类似于windows上mspaint的画图工具 🔑
 brew install --cask visual-studio-code # 微软开源的一款超强大的编辑器 🔑
 brew install --cask typora             # 简洁的Markdown编辑器 🔑

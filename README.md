@@ -309,6 +309,7 @@ more:
 通过homebrew安装常用的GUI工具(🔑 表示开源软件)
 
 ```sh
+brew install --cask keka               # 解压缩软件
 brew install --cask sublime-text       # 轻量小巧的编辑器
 brew install --cask google-chrome      # 最好的浏览器
 brew install --cask wechat             # 聊天工具

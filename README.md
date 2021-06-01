@@ -297,6 +297,7 @@ clickhouse-cli: https://github.com/hatarist/clickhouse-cli
 
 more: 
 
+* https://github.com/topics/terminal
 * https://github.com/jlevy/the-art-of-command-line
 * https://github.com/herrbischoff/awesome-macos-command-line
 * https://github.com/agarrharr/awesome-cli-apps

@@ -261,6 +261,7 @@ brew install git-extras # git 扩展插件
 brew install git-flow   # git flow工作流插件
 brew install git-lfs    # git lfs大文件存储
 brew install git-delta  # git diff工具 https://github.com/dandavison/delta
+brew install lazygit    # git terminal ui
 # db client
 brew install mycli      # mysql client
 brew install pgcli      # postgresql client
@@ -331,7 +332,6 @@ brew install --cask switchhosts        # hosts文件管理工具，gasmask的替
 brew install --cask v2rayu             # 🪜，ShadowsocksX替代品 🔑
 brew install --cask lightproxy         # 阿里出品的一款http抓包工具，可以替代charles 🔑
 brew install --cask proxyman           # 另一款好用的http抓包工具，不过有些功能要收费
-brew install --cask cakebrew           # homebrew gui管理器
 brew install --cask docker             # 应用容器 🔑
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 brew install --cask virtualbox         # virtualbox虚拟机
@@ -339,7 +339,6 @@ brew install --cask vagrant            # 虚拟机部署vagrantfile，类似于d
 brew install --cask motrix             # 下载工具🔑
 brew install --cask dbeaver-community  # 统一DB管理工具🔑
 brew install --cask rectangle          # 窗口管理工具🔑
-brew install --cask xit                # Git GUI🔑
 ```
 
 more: 

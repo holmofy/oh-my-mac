@@ -163,23 +163,14 @@ source .zshrc
 curl https://raw.githubusercontent.com/holmofy/my-home-config/master/.vimrc > ~/.vimrc
 ```
 
-### 5.2. Set up Vundle:
+### 5.2. Set up vim-plug:
+
+refer to [vim-plug](https://github.com/junegunn/vim-plug#installation)
+
+### 5.3. Install Plugins:
 
 ```sh
-git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-```
-
-### 5.3. Install molokai color scheme
-
-```sh
-mkdir -p ~/.vim/colors
-curl https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim > ~/.vim/colors/molokai.vim
-```
-
-### 5.4. Install Plugins:
-
-```sh
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 ```
 
 > 更牛逼的vim配置：https://github.com/SpaceVim/SpaceVim

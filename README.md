@@ -280,6 +280,7 @@ brew install scrcpy                    # https://github.com/Genymobile/scrcpy
 # wiki tools
 brew install aircrack-ng               # https://github.com/aircrack-ng/aircrack-ng
 brew install wifi-password             # https://github.com/rauchg/wifi-password
+brew install hashcat                   # https://github.com/hashcat/hashcat
 ```
 
 other:

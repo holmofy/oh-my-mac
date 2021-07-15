@@ -277,6 +277,9 @@ rbenv install 3.0.0                    # ruby-build install 3.0.0
 # android tools
 brew install android-platform-tools    # adb fastboot and so on
 brew install scrcpy                    # https://github.com/Genymobile/scrcpy
+# wiki tools
+brew install aircrack-ng               # https://github.com/aircrack-ng/aircrack-ng
+brew install wifi-password             # https://github.com/rauchg/wifi-password
 ```
 
 other:

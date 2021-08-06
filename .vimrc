@@ -55,7 +55,8 @@ Plug 'nathanaelkane/vim-indent-guides'
 " A vim plugin to display the indention levels with thin vertical lines
 " Plug 'Yggdroot/indentLine'
 "         let g:indentLine_char_list = ['¦', '┆', '┊']
-
+" Blazing fast minimap / scrollbar for vim
+Plug 'wfxr/minimap.vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Git

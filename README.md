@@ -11,10 +11,6 @@ client:
 server:
 * 搬瓦工VPS推出的专用代理服务just my socks，支持支付宝: https://justmysocks.net/members/aff.php?aff=15941
 
-> 永久有效的优惠码：JMS9272283，使用方法参考：https://bwgjms.com/post/justmysocks-coupon-code/
-> 
-> 没有🪜的程序员效率会低很多倍的。
-
 ---
 
 ## 2. Set git proxy for github

@@ -332,6 +332,7 @@ brew install --cask vagrant            # 虚拟机部署vagrantfile，类似于d
 brew install --cask motrix             # 下载工具🔑
 brew install --cask dbeaver-community  # 统一DB管理工具🔑
 brew install --cask rectangle          # 窗口管理工具🔑
+brew install --cask picgo              # 统一图床工具
 ```
 
 more: 

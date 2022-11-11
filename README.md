@@ -253,6 +253,7 @@ brew install lazygit    # git terminal ui
 brew install mycli      # mysql client
 brew install pgcli      # postgresql client
 brew install xo/xo/usql # 支持大部分数据库的客户端
+brew install innotop    # innotop
 # zookeeper
 brew tap let-us-go/zkcli               # A interactive Zookeeper client.
 brew install zkcli                     # https://github.com/let-us-go/zkcli

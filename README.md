@@ -318,6 +318,7 @@ brew install --cask gimp               # 像素图编辑器，开源版的Adobe 
 brew install --cask inkscape           # 矢量图编辑器，开源版的Adobe Illustrator 🔑
 brew install --cask visual-studio-code # 微软开源的一款超强大的编辑器 🔑
 brew install --cask typora             # 简洁的Markdown编辑器 🔑
+brew install --cask imhex              # 二进制编辑器 🔑
 brew install --cask tencent-lemon      # 腾讯开发的垃圾清理工具
 brew install --cask iina               # 基于mpv的视频播放器 🔑
 brew install --cask eul                # Mac监控软件，颜值比stats高 🔑

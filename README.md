@@ -175,35 +175,35 @@ vim +PlugInstall +qall
 
 ---
 
-## 6. tmux configuration
+~~## 6. tmux configuration~~ Using [zellij](https://github.com/zellij-org/zellij) instead of tmux
 
 ![oh-my-tmux](https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.screen-shot/tmux-screen-shot.png)
 
-### 6.1. Install tmux
+~~### 6.1. Install tmux~~
 
 ```sh
 brew install tmux
 ```
 
-### 6.2. Install Tmux Plugin Manager(tpm)
+~~### 6.2. Install Tmux Plugin Manager(tpm)~~
 
 ```sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-### 6.3. Add Configuration
+~~### 6.3. Add Configuration~~
 
 ```sh
 curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > ~/.tmux.conf
 ```
 
-### 6.4. Reload tmux configuration
+~~### 6.4. Reload tmux configuration~~
 
 ```sh
 tmux source ~/.tmux.conf
 ```
 
-### 6.5. Config oh-my-zsh tmux plugin
+~~### 6.5. Config oh-my-zsh tmux plugin~~
 
 refs:  https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
 
@@ -217,6 +217,8 @@ ZSH_TMUX_UNICODE=true
 > * Tmux Manual: http://man7.org/linux/man-pages/man1/tmux.1.html
 > * Xterm_256color: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 > * Vim Pane: http://www.deanbodenham.com/learn/tmux-pane-colours.html
+
+## 
 
 ---
 

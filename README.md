@@ -177,6 +177,10 @@ vim +PlugInstall +qall
 
 ~~## 6. tmux configuration~~ Using [zellij](https://github.com/zellij-org/zellij) instead of tmux
 
+Another similar product is [byobu](https://github.com/dustinkirkland/byobu), which is based on tmux. 
+
+[screen](https://savannah.gnu.org/git/?group=screen)、[i3](https://github.com/i3/i3)、[wezterm](https://github.com/wez/wezterm)
+
 ![oh-my-tmux](https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.screen-shot/tmux-screen-shot.png)
 
 ~~### 6.1. Install tmux~~

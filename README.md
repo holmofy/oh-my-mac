@@ -179,7 +179,9 @@ vim +PlugInstall +qall
 
 Another similar product is [byobu](https://github.com/dustinkirkland/byobu), which is based on tmux. 
 
-[screen](https://savannah.gnu.org/git/?group=screen)、[i3](https://github.com/i3/i3)、[wezterm](https://github.com/wez/wezterm)
+[screen](https://savannah.gnu.org/git/?group=screen)、[i3](https://github.com/i3/i3)、[wezterm](https://github.com/wez/wezterm)。
+
+[search by terminal multiplexer](https://github.com/search?q=terminal%20multiplexer)
 
 ![oh-my-tmux](https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.screen-shot/tmux-screen-shot.png)
 

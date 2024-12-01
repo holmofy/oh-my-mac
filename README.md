@@ -243,6 +243,7 @@ brew install iperf3     # 网络性能测试工具
 brew install htop       # 代替top: https://github.com/htop-dev/htop/
 brew install glances    # 代替htop: https://github.com/nicolargo/glances
 brew install ctop       # docker容器top
+brew install dive       # 查看docker镜像的Layer
 brew install jq         # json处理工具
 brew install jless      # json查看工具
 brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr

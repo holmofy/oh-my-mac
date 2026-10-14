@@ -233,6 +233,7 @@ ZSH_TMUX_UNICODE=true
 通过homebrew安装常用的命令行工具
 
 ```sh
+brew install herdr      # AI时代为agent设计的终端复用器，替代tmux，https://github.com/herdrdev/herdr
 brew install fzf        # 模糊搜索工具，https://github.com/junegunn/fzf
 brew install shellcheck # 检查自己写的shell，https://github.com/koalaman/shellcheck
 brew install hexedit    # 二进制编辑器

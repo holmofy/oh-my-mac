@@ -317,7 +317,7 @@ more:
 ```sh
 brew install --cask keka               # 解压缩软件
 brew install --cask hiddenbar          # 导航栏图标工具
-brew install --cask sublime-text       # 轻量小巧的编辑器
+brew install --cask zed                # AI时代的IDE
 brew install --cask google-chrome      # 最好的浏览器
 brew install --cask wechat             # 聊天工具
 brew install --cask qqmusic            # 最喜欢的音乐软件
@@ -328,7 +328,6 @@ brew install --cask gifcapture         # 开源的一款gif录屏软件 🔑
 brew install --cask gifox              # 氪金版的gif录屏软件，免费的有水印
 brew install --cask gimp               # 像素图编辑器，开源版的Adobe Photoshop 🔑
 brew install --cask inkscape           # 矢量图编辑器，开源版的Adobe Illustrator 🔑
-brew install --cask visual-studio-code # 微软开源的一款超强大的编辑器 🔑
 brew install --cask typora             # 简洁的Markdown编辑器 🔑
 brew install --cask imhex              # 二进制编辑器 🔑
 brew install --cask tencent-lemon      # 腾讯开发的垃圾清理工具
@@ -344,7 +343,7 @@ brew install --cask docker             # 应用容器 🔑
 brew install --cask virtualbox         # virtualbox虚拟机
 brew install --cask vagrant            # 虚拟机部署vagrantfile，类似于docker，不过是基于虚拟机的 🔑
 brew install --cask motrix             # 下载工具🔑
-brew install --cask dbeaver-community  # 统一DB管理工具🔑
+brew install --cask dbx                # AI时代的统一DB管理工具🔑
 brew install --cask rectangle          # 窗口管理工具🔑
 brew install --cask picgo              # 统一图床工具
 ```

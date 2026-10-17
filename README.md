@@ -318,6 +318,7 @@ more:
 brew install --cask keka               # 解压缩软件
 brew install --cask hiddenbar          # 导航栏图标工具
 brew install --cask zed                # AI时代的IDE
+brew install --cask cc-switch          # LLM、Skills、MCP管理器
 brew install --cask google-chrome      # 最好的浏览器
 brew install --cask wechat             # 聊天工具
 brew install --cask qqmusic            # 最喜欢的音乐软件

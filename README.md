@@ -256,6 +256,7 @@ brew install --cask v2rayu             # 🪜，ShadowsocksX替代品 🔑
 brew install --cask lightproxy         # 阿里出品的一款http抓包工具，可以替代charles 🔑
 brew install --cask proxyman           # 另一款好用的http抓包工具，不过有些功能要收费
 brew install --cask docker             # 应用容器 🔑
+brew install --cask orbstack           # 管理虚拟机与容器的应用，替代docker
 # docker 阿里云镜像加速：https://cr.console.aliyun.com/cn-hangzhou/instances/mirrors
 brew install --cask virtualbox         # virtualbox虚拟机
 brew install --cask vagrant            # 虚拟机部署vagrantfile，类似于docker，不过是基于虚拟机的 🔑

@@ -52,11 +52,6 @@ Plug 'vim-airline/vim-airline-themes'
     let g:airline#extensions#tabline#formatter = 'default'
 " A Vim plugin for visually displaying indent levels in code
 Plug 'nathanaelkane/vim-indent-guides'
-" A vim plugin to display the indention levels with thin vertical lines
-" Plug 'Yggdroot/indentLine'
-"         let g:indentLine_char_list = ['¦', '┆', '┊']
-" Blazing fast minimap / scrollbar for vim
-Plug 'wfxr/minimap.vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Git
@@ -65,51 +60,6 @@ Plug 'tpope/vim-fugitive'
 " A Vim plugin which shows a git diff in the 'gutter' 
 Plug 'airblade/vim-gitgutter'
 
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Fuzzy
-" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Plug 'junegunn/fzf.vim'
-" An efficient fuzzy finder that helps to locate files, buffers, mrus, gtags, etc. on the fly for both vim and neovim.
-Plug 'Yggdroot/LeaderF', { 'do': ':LeaderfInstallCExtension' }
-    let g:Lf_ShortcutF = '<C-P>'
-    let g:Lf_WindowPosition = 'popup'
-    let g:Lf_PreviewInPopup = 1
-    let g:Lf_ShortcutF = "<leader>ff"
-    noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
-    noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>
-    noremap <leader>ft :<C-U><C-R>=printf("Leaderf bufTag %s", "")<CR><CR>
-    noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
-
-    noremap <C-B> :<C-U><C-R>=printf("Leaderf! rg --current-buffer -e %s ", expand("<cword>"))<CR>
-    noremap <C-F> :<C-U><C-R>=printf("Leaderf! rg -e %s ", expand("<cword>"))<CR>
-    " search visually selected text literally
-    xnoremap gf :<C-U><C-R>=printf("Leaderf! rg -F -e %s ", leaderf#Rg#visual())<CR>
-    noremap go :<C-U>Leaderf! rg --recall<CR>
-
-    " should use `Leaderf gtags --update` first
-    let g:Lf_GtagsAutoGenerate = 0
-    let g:Lf_Gtagslabel = 'native-pygments'
-    noremap <leader>fr :<C-U><C-R>=printf("Leaderf! gtags -r %s --auto-jump", expand("<cword>"))<CR><CR>
-    noremap <leader>fd :<C-U><C-R>=printf("Leaderf! gtags -d %s --auto-jump", expand("<cword>"))<CR><CR>
-    noremap <leader>fo :<C-U><C-R>=printf("Leaderf! gtags --recall %s", "")<CR><CR>
-    noremap <leader>fn :<C-U><C-R>=printf("Leaderf gtags --next %s", "")<CR><CR>
-    noremap <leader>fp :<C-U><C-R>=printf("Leaderf gtags --previous %s", "")<CR><CR>
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""""
-" completion and snippet
-" languge server
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" snippet engine
-Plug 'SirVer/ultisnips'
-" Snippets are separated from the engine. Add this if you want them:
-Plug 'honza/vim-snippets'
-" html edit utility
-Plug 'mattn/emmet-vim',{'for':['html','jsx','react','vue','css','less','scss','sass']}
-    let g:user_emmet_mode='n'            "only enable normal mode functions.
-" comment
-Plug 'preservim/nerdcommenter'
 
 """""""""""""""""""""""""""""""""""""""""""""""""
 " syntax highlight and checher

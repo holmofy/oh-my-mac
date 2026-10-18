@@ -174,7 +174,8 @@ brew install iperf3     # 网络性能测试工具
 brew install htop       # 代替top: https://github.com/htop-dev/htop/
 brew install ctop       # docker容器top
 brew install jq         # json处理工具
-brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr
+# brew install tldr     # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr
+brew install tlrc       # 改用rust重写了
 brew install navi       # 交互式命令行示例参考，比tldr有交互性
 # 世界上最好的在线cheat文档: https://github.com/chubin/cheat.sh
 curl https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && chmod +x /usr/local/bin/cht.sh

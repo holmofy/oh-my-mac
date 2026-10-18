@@ -169,15 +169,11 @@ brew install fzf        # 模糊搜索工具，https://github.com/junegunn/fzf
 brew install shellcheck # 检查自己写的shell，https://github.com/koalaman/shellcheck
 brew install hexedit    # 二进制编辑器
 brew install bat        # 包含语法高亮的less，替代cat。bat=less+cat
-brew install exa        # 树形结构的ls，exa=ls+tree
 brew install httpie     # 比curl友好的http客户端
 brew install iperf3     # 网络性能测试工具
 brew install htop       # 代替top: https://github.com/htop-dev/htop/
-brew install glances    # 代替htop: https://github.com/nicolargo/glances
 brew install ctop       # docker容器top
-brew install dive       # 查看docker镜像的Layer
 brew install jq         # json处理工具
-brew install jless      # json查看工具
 brew install tldr       # 命令行工具代码示例参考，比man和help直观: https://github.com/tldr-pages/tldr
 brew install navi       # 交互式命令行示例参考，比tldr有交互性
 # 世界上最好的在线cheat文档: https://github.com/chubin/cheat.sh
@@ -200,21 +196,10 @@ brew install innotop    # innotop
 brew tap let-us-go/zkcli               # A interactive Zookeeper client.
 brew install zkcli                     # https://github.com/let-us-go/zkcli
 # java
-brew install jenv       # jdk version manager
-brew install openjdk@8  # jdk8
-sudo ln -sfn /usr/local/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk
-jenv add /usr/local/opt/openjdk@8/
+# brew install jenv       # jdk version manager, 推荐用mise替代
+# brew install openjdk@8  # jdk8
 # node
-brew install nvm        # node.js版本管理
-nvm install <node-version>
-npm install -g nrm      # node registry manager
-# cpp
-brew install cppman     # cpp manual
-# ruby
-brew install rbenv                     # https://github.com/rbenv/rbenv#homebrew-on-macos
-rbenv install 3.0.0                    # ruby-build install 3.0.0
-# android tools
-brew install android-platform-tools    # adb fastboot and so on
+brew install nvm        # node.js版本管理, 推荐用mise替代
 brew install scrcpy                    # https://github.com/Genymobile/scrcpy
 # wifi tools
 brew install aircrack-ng               # WiFi security auditing tools suite: https://github.com/aircrack-ng/aircrack-ng

@@ -4,35 +4,15 @@
 
 client:
 
-* [shadowsocks](https://github.com/search?q=shadowsocks)
-* [v2ray](https://github.com/search?q=v2ray)
-* [trojan](https://github.com/search?q=trojan)
+* [FlClash](https://github.com/chen08209/FlClash)
+* [clash-verge](https://github.com/clash-verge-rev/clash-verge-rev)
 
 server:
 * 搬瓦工VPS推出的专用代理服务just my socks，支持支付宝: https://justmysocks.net/members/aff.php?aff=15941
 
----
+## 2. homebrew
 
-## 2. Set git proxy for github
-
-```sh
-# 设置代理，<port>是代理软件的开放端口
-git config --global https.proxy http://127.0.0.1:<port>
-git config --global https.proxy https://127.0.0.1<port>
-
-# 重置
-git config --global --unset http.proxy
-git config --global --unset https.proxy
-```
-
-> * Configure Git to use a proxy: https://gist.github.com/evantoli/f8c23a37eb3558ab8765
-> * git 设置和取消代理: https://gist.github.com/laispace/666dd7b27e9116faece6
-
----
-
-## 3. homebrew
-
-Install homebrew
+Install [homebrew](https://brew.sh/)
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -40,19 +20,21 @@ Install homebrew
 
 > 没有梯子的话最好用国内的镜像源，否则会很慢，安装完后可以在`.zshrc`中配置`export HOMEBREW_NO_AUTO_UPDATE=3`关闭brew仓库的自动更新
 
+homebrew官方提供[BrewUI](https://github.com/Homebrew/BrewUI/)
+
 ---
 
 ## 4. zsh config
 
 ![zsh](https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.screen-shot/zsh-screen-shot.gif)
 
-### 4.1. Install on-my-zsh
+### 4.1. Install [on-my-zsh](https://ohmyz.sh/)
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-### 4.2. Install oh-my-zsh themes
+### 4.2. Install oh-my-zsh themes(optional)
 
 **1) [PowerLine10k](https://github.com/romkatv/powerlevel10k)**
 
@@ -169,60 +151,9 @@ refer to [vim-plug](https://github.com/junegunn/vim-plug#installation)
 vim +PlugInstall +qall
 ```
 
-> 更牛逼的vim配置：https://github.com/SpaceVim/SpaceVim
-> 在VSCode中使用Vim：https://github.com/daipeihust/im-select
-> 在Idea中使用Vim：https://github.com/rieonke/idea-auto-switch-im
-
----
-
-~~## 6. tmux configuration~~ Using [zellij](https://github.com/zellij-org/zellij) instead of tmux
-
-Another similar product is [byobu](https://github.com/dustinkirkland/byobu), which is based on tmux. 
-
-[screen](https://savannah.gnu.org/git/?group=screen)、[i3](https://github.com/i3/i3)、[wezterm](https://github.com/wez/wezterm)。
-
-[search by terminal multiplexer](https://github.com/search?q=terminal%20multiplexer)
-
-![oh-my-tmux](https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.screen-shot/tmux-screen-shot.png)
-
-~~### 6.1. Install tmux~~
-
-```sh
-brew install tmux
-```
-
-~~### 6.2. Install Tmux Plugin Manager(tpm)~~
-
-```sh
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-```
-
-~~### 6.3. Add Configuration~~
-
-```sh
-curl https://raw.githubusercontent.com/holmofy/oh-my-mac/master/.tmux.conf > ~/.tmux.conf
-```
-
-~~### 6.4. Reload tmux configuration~~
-
-```sh
-tmux source ~/.tmux.conf
-```
-
-~~### 6.5. Config oh-my-zsh tmux plugin~~
-
-refs:  https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/tmux
-
-```sh
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOQUIT=false
-ZSH_TMUX_UNICODE=true
-```
-
-> Refs:
-> * Tmux Manual: http://man7.org/linux/man-pages/man1/tmux.1.html
-> * Xterm_256color: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
-> * Vim Pane: http://www.deanbodenham.com/learn/tmux-pane-colours.html
+> * 更牛逼的vim配置：https://github.com/SpaceVim/SpaceVim
+> * 在VSCode中使用Vim：https://github.com/daipeihust/im-select
+> * 在Idea中使用Vim：https://github.com/rieonke/idea-auto-switch-im
 
 ## 
 
